@@ -1,16 +1,36 @@
 # heatmap
+**Goal**: A Flutter project to manage heatmap.
 
-A new Flutter project to manage heatmap.
+## Requirements
+* Computer (Windows, Mac or Linux)
+* Android Studio
 
-## Getting Started
+## Setup the project in Android studio
+1. Download the project code, preferably using `git clone git@github.com:YannMancel/heatmap.git`.
+2. In Android Studio, select *File* | *Open...*
+3. Select the project
 
-This project is a starting point for a Flutter application.
+## Dependencies
+* Flutter Version Management
+    * [fvm][1]
+* 3D
+    * [flutter_gl][2]
+    * [three_dart][3]
+    * [ditredi][4]
 
-A few resources to get you started if this is your first Flutter project:
+## Troubleshooting
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### No device available during the compilation and execution steps
+* If none of device is present (*Available Virtual Devices* or *Connected Devices*),
+    * Either select `Create a new virtual device`
+    * or connect and select your phone or tablet
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Useful
+* [Download Android Studio](https://developer.android.com/studio)
+* [Create a new virtual device](https://developer.android.com/studio/run/managing-avds.html)
+* [Enable developer options and debugging](https://developer.android.com/studio/debug/dev-options.html#enable)
+
+[1]: https://fvm.app/
+[2]: https://pub.dev/packages/flutter_gl
+[3]: https://pub.dev/packages/three_dart
+[4]: https://pub.dev/packages/ditredi
