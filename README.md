@@ -1,5 +1,5 @@
 # heatmap
-**Goal**: A Flutter project to manage heatmap.
+**Goal**: A Flutter project to manage heatmap (OpenGl).
 
 ## Requirements
 * Computer (Windows, Mac or Linux)
